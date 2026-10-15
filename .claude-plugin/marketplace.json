@@ -1,0 +1,14 @@
+{
+  "name": "gendive-skills-manufacturing",
+  "owner": {
+    "name": "gendive"
+  },
+  "plugins": [
+    {
+      "name": "gendive-skills-manufacturing",
+      "source": ".",
+      "description": "제조 데이터 활용: 생산실적·불량 분석, 재고와 계절성으로 발주 시점 판단을 위한 국내 기준 스킬 모음",
+      "version": "0.1.0"
+    }
+  ]
+}
