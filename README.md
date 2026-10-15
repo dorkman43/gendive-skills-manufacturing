@@ -11,8 +11,12 @@
 
 ## 쓰는 법 3가지
 
-1. **Claude (무료 포함)**: 설정 → 기능에서 "코드 실행 및 파일 생성"을 켜고, `skills/<스킬이름>` 폴더를 zip으로 묶어 설정 → 스킬에서 업로드합니다.
-2. **Claude Code / Cowork**: `/plugin marketplace add dorkman43/gendive-skills-manufacturing` 를 입력한 뒤 플러그인을 설치합니다.
+1. **Claude 웹 (무료 포함)**
+   - [Releases](https://github.com/dorkman43/gendive-skills-manufacturing/releases/latest)에서 쓸 스킬의 zip(예: `production-defect-analysis.zip`)을 내려받습니다. **압축을 풀지 말고 그대로** 올립니다. (Mac Safari가 자동으로 풀었다면 폴더를 오른쪽 클릭 → "압축"으로 다시 묶으세요)
+   - claude.ai 설정 → Capabilities에서 "Code execution and file creation"(코드 실행 및 파일 생성)을 켭니다.
+   - Customize → Skills → "+" → "Create skill" → "Upload a skill"에서 zip을 올리고, 목록의 스위치가 켜져 있는지 확인합니다.
+   - 스킬은 사람마다 자기 계정에 올려야 합니다. 올린 뒤에는 파일을 첨부하고 평소처럼 말하면 알맞은 스킬이 자동으로 쓰입니다.
+2. **Claude Code / Cowork**: `/plugin marketplace add dorkman43/gendive-skills-manufacturing` 를 입력한 뒤 `/plugin install gendive-skills-manufacturing@gendive-skills-manufacturing` 로 설치합니다.
 3. **ChatGPT·Gemini**: `SKILL.md` 의 머리말(`---` 사이)을 뺀 본문을 프로젝트 지침(ChatGPT) 또는 대화 첫 메시지에 붙여 넣고 파일을 올립니다.
 
 ## 함께 쓰면 좋은 저장소
